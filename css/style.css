@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+#section{
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-top: 5%;
+    width: 94%;
+}
+.welcome-title{
+    padding-left: 39%;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+.content .picture-img{
+    width: 40%;
+}
+.content .picture-img .picture{
+    width: 429px ;
+    height: 490px ;
+}
+.content .text{
+    padding-left: 3%;
+}
+.content .heading-text{
+    padding-left: 30%;
+}
+.content .heading-text .line{
+    width: 10%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.content .heading-text .line .line-line{
+    color: orange;
+}
+.content .text .content-text{
+    padding-top: 10%;
+    font-size: small;
+}
+
+
+.contact-form .contact-head{
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+.contact-form .form-row{
+    padding-top: 1%;
+}
+.contact-form .form-row .input-box{
+    padding-left: 10%;
+    width: 60%;
+    height: 450px;
+}
+.contact-form .form-row .input-box .first-name{
+    padding-bottom: 5%;
+}
+.contact-form .form-row .input-box .last-name{
+    padding-bottom: 5%;
+}
+.contact-form .form-row .input-box input{
+    width: 90%;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.contact-form .form-row .input-box .message textarea{
+    width: 90%;
+    height: 110px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.button-section{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7%;
+    padding-top: 3%;
+    
+}
+.button-section button{
+    background: rgb(74, 74, 245);
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
